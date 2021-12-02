@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+    <html lang = "en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!-- box icons used from internet -->
+            <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+            <!-- css file -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<title> My resume</title>
+        </head>
+        <body>
+            <!-- header -->
+            <header class="l-header" id="header">
+                <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Nikolic</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-home nav__icon'></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user' ></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book' ></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-receipt' ></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class='bx bx-briefcase-alt' ></i>Projects
+                            </a>
+                        </li>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+            </header>
+
+            <main class="l-main bd-container">
+                <!--all elements within this div, is generated in PDF-->
+                <div class="resume" id="area-cv">
+                    <div class="resume__left"> <!-- Presentig left side of the sheet -->
+                        <!-- HOME -->
+                        <section class="home" id="home">
+                            <div class="home__container section bd-grid">
+                                <div class="home__data bd-grid">
+                                    <img src="assets/img/photo.jpg" alt="" class="home__photo">
+
+                                    <h1 class="home__title">NIKOLIC <b>ANA MARIJA</b></h1>
+                                    <h3 class="home__profession">JUNIOR WEB DEVELOPER</h3>
+                <!-- Button to download your CV saved in pdf folder for mobile-->
+                <div>
+                    <a download="" href="assets/pdf/resumeCV.pdf" class="home__button-movil">Download</a>
+                </div>                    
+                                </div>
+                                <div class="home__adress bd-grid">
+                                    <span class="home__information">
+                                        <!-- for adress -->
+                                        <i class='bx bx-map'></i> Wien, AT
+                                    </span>
+                                    <span class="home__information">
+                                        <!-- for email contact / need to change-->
+                                        <i class='bx bx-envelope' ></i> anamarijanikolic14@gmail.com
+                                    </span>
+                                    <span class="home__information">
+                                        <!-- for phone number contact / need to change -->
+                                        <i class='bx bxs-phone' ></i> (43)0677-643-462-70
+                                    </span>
+                                </div>
+                            </div>
+                        
+
+                <!-- THEME CHANGE BUTTON-->
+                <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                <!-- Button to generate and download the pdf for desktop -->
+                <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+             </section>  
+              <!-- SOCIAL -->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+<!-- change href to your profile linkendin / need to change-->
+                    <div class="social__container bd-grid">
+                        <a href="https://www.linkedin.com/in/ana-marija-nikolic-63b981221/" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin-square social__icon'></i> @anamarijanikolic
+                        </a>
+<!-- change href to your profile facebook / need to change-->
+                        <a href="https://www.facebook.com/profile.php?id=100002295875002" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon' ></i> @anamarijaturk
+                        </a>
+<!-- change href to your profile instagram / need to change-->
+                        <a href="https://www.instagram.com/meekoraccoon/" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon' ></i> @meekoraccoon
+                        </a>
+<!-- change href to your profile github / need to change -->
+                        <a href="https://github.com/EnMarie" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> @EnMarie
+                        </a>
+                    </div>
+                </section>
+
+                <!-- PROFILE -->
+        <section class="profile section" id="profile">
+            <h2 class="section-title">Profile</h2>
+            <!-- make text for your short description-->
+            <p class="profile__description">I always was interested in computers and how they work, how everything works on the internet and how to create something like a website or some application. Finally, I have decided to start learning programing and it turns out to be so much fun. By learning more and more about programming and how making things work, passion for programming grew. I have created few small projects, to practice and to improve my programming skills.</p>
+        </section>
+
+                <!-- EDUCATION -->
+        <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+
+                    <div class="education__data bd-grid">
+                        <h3 class="education-title">Technician for pharmaceutical industrial technology</h3>
+                        <span class="education__studies"> Technical school "23. May"</span>
+                        <span class="education__year">2007 - 2011</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                    <!--   <span class="education__line"></span> / making it a comment it is ending line element --> 
+                    </div>
+
+                    <div class="education__data bd-grid">
+                        <h3 class="education-title">Web Developer</h3>
+                        <span class="education__studies"> Self-taught</span>
+                        <span class="education__year">2020 - present </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+                    </div>
+                    <div class="resume__right"> <!-- Presentig right side of the sheet -->
+                         <!-- SKILLS -->
+                         <section class="skills section" id="skills">
+                            <h2 class="section-title">Skills</h2>
+
+                            <div class="skills__content bd-grid">
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> HTML
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> CSS
+                                    </li>
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> Javascript
+                                    </li>
+                                </ul>
+                                <!-- if you have more skills add new ul object -->
+                                <ul class="skills__data">
+                                    <li class="skills__name">
+                                        <span class="skills__circle"></span> SQL
+                                    </li>
+                                </ul> 
+                            </div>
+                        </section>
+            <!-- PROJECTS -->
+            <section class="projects section" id="projects">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects__container bd-grid">
+                    <div class="projects__content">
+                        <div class="projects__time">
+                            <span class="projects__rounder"></span>
+                            <span class="projects__line"></span>
+                        </div>
+
+                        <div class="projects__data bd-grid">
+                            <h3 class="projects__title">Simple Quiz app</h3>
+                            <span class="projects__purpose">Entertainment</span>
+                            <p class="projects__description">The simple Quiz app was my first project. It is simple, fun and functional. Combination of HTML, CSS and JavaScript making app work smoothly, creating progress bar and saving scores in Local storage.</p>
+                        </div>
+                    </div>
+
+                    <div class="projects__content">
+                        <div class="projects__time">
+                            <span class="projects__rounder"></span>
+                            <span class="projects__line"></span>
+                        </div>
+
+                        <div class="projects__data bd-grid">
+                            <h3 class="projects__title">Tennis game - basic</h3>
+                            <span class="projects__purpose">Entertainment</span>
+                            <p class="projects__description">Display, position, and moving filled shape manipulation. The ball is moving and bouncing on boundaries. Mouse real-time input and programmed very basic artificial intelligence. Keeping and displaying scores during game play. Defined a win condition and end state of the game.</p>
+                        </div>
+                    </div>
+
+                    <div class="projects__content">
+                        <div class="projects__time">
+                            <span class="projects__rounder"></span>
+                           <!-- <span class="projects__line"></span> moved to comment to end line  -->
+                        </div>
+
+                        <div class="projects__data bd-grid">
+                            <h3 class="projects__title">Responsive website</h3>
+                            <span class="projects__purpose">Promotion</span>
+                            <p class="projects__description">Simple responsive website - resume. Using HTML, CSS variables and JavaScript DOM.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- LANGUAGES -->
+
+            <section class="language">
+                <h2 class="section-title">Languages</h2>
+
+                <div class="language__container">
+                    <ul class="languages__content bd-grid">
+                        <li class="languages__name">
+                            <span class="languages__circle"></span> Serbian
+                        </li>
+                        <li class="languages__name">
+                            <span class="languages__circle"></span> English
+                        </li>
+                        <li class="languages__name">
+                            <span class="languages__circle"></span> German
+                        </li>
+                        <li class="languages__name">
+                            <span class="languages__circle"></span> Hungarian
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- INTERESTS -->
+            <section class="interests section">
+                <h2 class="section-title">Interests</h2>
+
+                <div class="interests__container bd-grid">
+                    <div class="interests__content">
+                        <i class='bx bx-headphone interests__icon'></i>
+                        <span class="interests__name">Music</span>
+                    </div>
+
+                    <div class="interests__content">
+                        <i class='bx bxs-plane-alt interests__icon' ></i>
+                        <span class="interests__name">Travel</span>
+                    </div>
+
+                    <div class="interests__content">
+                        <i class='bx bx-book-alt interests__icon'></i>
+                        <span class="interests__name">Read</span>
+                    </div>
+
+                    <div class="interests__content">
+                        <i class='bx bx-dumbbell interests__icon' ></i>
+                        <span class="interests__name">Sport</span>
+                    </div>
+                </div>
+            </section>
+
+                    </div>
+                </div>
+            </main>
+
+            <!-- scroll top -->
+            <a href="#" class="scrolltop" id="scroll-top">
+                <i class='bx bx-up-arrow scrolltop__icon'></i>
+            </a>
+            <!-- HTML TO PDF -->
+            <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+            <!-- main js --> 
+            <script src="assets/js/main.js"></script>
+        </body>
+    </html>
